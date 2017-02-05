@@ -14,3 +14,7 @@ console.log(linkiPoSelektorze);
 
 var paragrafPoID = document.querySelector('#parSecond');
 console.log(paragrafPoID);
+
+linkiPoSelektorze.forEach( function (link, i){
+	console.log(link.outerHTML);
+});
